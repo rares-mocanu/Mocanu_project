@@ -3,6 +3,7 @@ button{
     width : 3vw;
     margin-top: 20px;
     margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 .container {
@@ -10,8 +11,8 @@ button{
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     border-style: groove;
     border-radius: 2px;
     .title {
@@ -24,6 +25,8 @@ button{
     .table {
       width: 60%;
     }
-  
+    td{
+      width: 10vw;
+    }
   }
   
